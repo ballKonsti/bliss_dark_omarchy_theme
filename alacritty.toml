@@ -1,7 +1,7 @@
 [window]
 decorations = "none"
-padding = { x = 25, y = 25 }
-opacity = 0.5
+padding     = { x = 20, y = 20 }
+opacity     = 0.90
 
 [font]
 size = 13.0
@@ -9,37 +9,37 @@ size = 13.0
 [colors]
 
 [colors.primary]
-background = "#1b263b"
-foreground = "#ffc2d1"
+background = "#0f1b2b"  # very dark navy-blue
+foreground = "#e6eaf0"  # off-white
 
 [colors.cursor]
-text = "#CCCCCC"
-cursor = "#333333"
+text   = "#0f1b2b"
+cursor = "#66c0ff"       # bright sky-blue cursor for visibility
 
 [colors.normal]
-black   = "#333333"
-red     = "#3d3d3d"
-green   = "#474747"
-yellow  = "#515151"
-blue    = "#5b5b5b"
-magenta = "#656565"
-cyan    = "#6f6f6f"
-white   = "#cccccc"
+black   = "#0b121a"
+red     = "#bf616a"
+green   = "#a3be8c"
+yellow  = "#ebcb8b"
+blue    = "#66c0ff"
+magenta = "#b48ead"
+cyan    = "#88c0d0"
+white   = "#e6eaf0"
 
 [colors.bright]
-black   = "#4a4a4a"
-red     = "#545454"
-green   = "#5e5e5e"
-yellow  = "#686868"
-blue    = "#727272"
-magenta = "#7c7c7c"
-cyan    = "#868686"
+black   = "#4f5b66"
+red     = "#d08770"
+green   = "#8fbcbb"
+yellow  = "#e5c07b"
+blue    = "#5da9ff"
+magenta = "#c678dd"
+cyan    = "#82aaff"
 white   = "#ffffff"
 
 [colors.selection]
-text = "#CCCCCC"
-background = "#333333"
+text       = "#0f1b2b"
+background = "#66c0ff"
 
 [colors.vi_mode_cursor]
-text   = "#CCCCCC"
-cursor = "#333333"
+text   = "#0f1b2b"
+cursor = "#ffcc00"        # gold cursor when in vi mode, high contrast
