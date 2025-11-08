@@ -9,7 +9,7 @@ size = 13.0
 [colors]
 
 [colors.primary]
-background = "#800f2f"
+background = "#1b263b"
 foreground = "#ffc2d1"
 
 [colors.cursor]
@@ -17,14 +17,14 @@ text = "#CCCCCC"
 cursor = "#333333"
 
 [colors.normal]
-black   = "#1b263b"
-red     = "#1b263b"
-green   = "#1b263b"
-yellow  = "#1b263b"
-blue    = "#1b263b"
-magenta = "#1b263b"
-cyan    = "#1b263b"
-white   = "#1b263b"
+black   = "#333333"
+red     = "#3d3d3d"
+green   = "#474747"
+yellow  = "#515151"
+blue    = "#5b5b5b"
+magenta = "#656565"
+cyan    = "#6f6f6f"
+white   = "#cccccc"
 
 [colors.bright]
 black   = "#4a4a4a"
