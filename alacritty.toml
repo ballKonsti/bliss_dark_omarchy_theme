@@ -7,39 +7,38 @@ opacity     = 0.65   # transparent-ish
 size = 13.0
 
 [colors]
-
 [colors.primary]
-background = "#1b1f2e"   # very dark bluish‑purple
-foreground = "#e6eaf8"   # off‑white with a hint of cool blue
+background = "#1a0f2e"   # deep dark purple
+foreground = "#ffffff"   # pure white
 
 [colors.cursor]
-text   = "#1b1f2e"
-cursor = "#8a8cff"       # pastel blue‑violet accent
+text   = "#1a0f2e"
+cursor = "#b19cd9"       # lighter purple accent
 
 [colors.normal]
-black   = "#14171f"
-red     = "#5c4b7b"
-green   = "#4d5e80"
-yellow  = "#6b71a7"
-blue    = "#8a8cff"
-magenta = "#a57bbf"
-cyan    = "#77aadd"
-white   = "#d8daf1"
+black   = "#0d0817"
+red     = "#8b6ba8"
+green   = "#7d5fa3"
+yellow  = "#9d7db8"
+blue    = "#b19cd9"
+magenta = "#c5a3dc"
+cyan    = "#a988c7"
+white   = "#ffffff"
 
 [colors.bright]
-black   = "#2a2e3d"
-red     = "#836ead"
-green   = "#6b80a1"
-yellow  = "#8c92c5"
-blue    = "#a4aaff"
-magenta = "#be99d9"
-cyan    = "#9ec7f2"
-white   = "#f2f4ff"
+black   = "#2d1b4e"
+red     = "#a77ec5"
+green   = "#9674b8"
+yellow  = "#b699d3"
+blue    = "#c9b3e8"
+magenta = "#dbbef0"
+cyan    = "#c1a8dd"
+white   = "#ffffff"
 
 [colors.selection]
-text       = "#e6eaf8"
-background = "#4d5270"
+text       = "#ffffff"
+background = "#4a2d6b"   # medium purple
 
 [colors.vi_mode_cursor]
-text   = "#1b1f2e"
-cursor = "#ffcc88"  # golden‑accent for vi mode
+text   = "#1a0f2e"
+cursor = "#d4b3ff"       # light purple for vi mode
