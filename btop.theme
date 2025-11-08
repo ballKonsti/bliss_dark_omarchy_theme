@@ -1,74 +1,57 @@
-# ── Serenity (Monochrome Neutral) ──
-# Matches your Hyprland and Alacritty greyscale setup.
-
+# ── Dark Purple (Terminal Match) ──
+# Matches your dark purple Alacritty terminal theme
 # Main background, leave empty for transparency
 theme[main_bg]=""
-
 # Main text color
-theme[main_fg]="#474747"
-
+theme[main_fg]="#ffffff"
 # Title color for boxes
-theme[title]="#333333"
-
+theme[title]="#c9b3e8"
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#474747"
-
+theme[hi_fg]="#dbbef0"
 # Background color of selected item in processes box
-theme[selected_bg]="#333333"
-
+theme[selected_bg]="#4a2d6b"
 # Foreground color of selected item in processes box
-theme[selected_fg]="#CCCCCC"
-
+theme[selected_fg]="#ffffff"
 # Color of inactive/disabled text
-theme[inactive_fg]="#4A4A4A"
-
+theme[inactive_fg]="#7d5fa3"
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#474747"
-
+theme[proc_misc]="#b19cd9"
 # Box outline and divider line color
-theme[cpu_box]="#474747"
-theme[mem_box]="#474747"
-theme[net_box]="#474747"
-theme[proc_box]="#474747"
-theme[div_line]="#4A4A4A"
-
+theme[cpu_box]="#9d7db8"
+theme[mem_box]="#a77ec5"
+theme[net_box]="#b19cd9"
+theme[proc_box]="#8b6ba8"
+theme[div_line]="#7d5fa3"
 # Gradients for all meters and graphs
-theme[temp_start]="#6F6F6F"
-theme[temp_mid]="#515151"
-theme[temp_end]="#333333"
-
-theme[cpu_start]="#6F6F6F"
-theme[cpu_mid]="#515151"
-theme[cpu_end]="#333333"
-
-theme[mem_start]="#5B5B5B"
-theme[mem_mid]="#474747"
-theme[mem_end]="#333333"
-
-theme[net_start]="#6F6F6F"
-theme[net_mid]="#5B5B5B"
-theme[net_end]="#474747"
-
-theme[proc_start]="#656565"
-theme[proc_mid]="#545454"
-theme[proc_end]="#474747"
-
+theme[temp_start]="#dbbef0"
+theme[temp_mid]="#b19cd9"
+theme[temp_end]="#7d5fa3"
+theme[cpu_start]="#c9b3e8"
+theme[cpu_mid]="#a77ec5"
+theme[cpu_end]="#8b6ba8"
+theme[mem_start]="#b699d3"
+theme[mem_mid]="#9d7db8"
+theme[mem_end]="#7d5fa3"
+theme[net_start]="#dbbef0"
+theme[net_mid]="#c5a3dc"
+theme[net_end]="#a988c7"
+theme[proc_start]="#c1a8dd"
+theme[proc_mid]="#b19cd9"
+theme[proc_end]="#9674b8"
 # Bottom bar
 theme[btm_bg]=""
-theme[btm_fg]="#474747"
-
-# ── Explicit overrides (fixes blue “W” and MHz/GHz numbers) ──
-theme[power]       = "#474747"
-theme[cpu_power]   = "#474747"
-theme[watts]       = "#474747"
-theme[freq]        = "#474747"
-theme[cpu_freq]    = "#474747"
-theme[ghz]         = "#474747"
-theme[temp]        = "#474747"
-theme[temp_crit]   = "#474747"
-theme[gpu_power]   = "#474747"
-theme[gpu_freq]    = "#474747"
-theme[gpu_temp]    = "#474747"
-theme[cpu_text]    = "#474747"
-
-# ── End Serenity Theme ──
+theme[btm_fg]="#ffffff"
+# ── Explicit overrides (fixes blue "W" and MHz/GHz numbers) ──
+theme[power]       = "#b19cd9"
+theme[cpu_power]   = "#b19cd9"
+theme[watts]       = "#b19cd9"
+theme[freq]        = "#a77ec5"
+theme[cpu_freq]    = "#a77ec5"
+theme[ghz]         = "#a77ec5"
+theme[temp]        = "#c5a3dc"
+theme[temp_crit]   = "#dbbef0"
+theme[gpu_power]   = "#b19cd9"
+theme[gpu_freq]    = "#a77ec5"
+theme[gpu_temp]    = "#c5a3dc"
+theme[cpu_text]    = "#ffffff"
+# ── End Dark Purple Theme ──
