@@ -16,14 +16,3 @@ window#waybar {
   backdrop-filter: blur(10px); /* This creates the blur effect */
   -webkit-backdrop-filter: blur(10px); /* For compatibility */
 }
-
-/* If you want the blur on specific modules instead */
-.modules-left,
-.modules-center,
-.modules-right {
-  background-color: @background;
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-}
