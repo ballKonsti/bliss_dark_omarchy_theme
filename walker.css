@@ -8,7 +8,7 @@
 
 window .box-wrapper {
   background: rgba(204, 204, 204, 0.55); /* same as Waybar and terminal */
-  padding: 8px 2px;
+  padding: 0px 0px;
   color: @text;
   border: 1px solid @border;
   margin: 0;
@@ -19,7 +19,7 @@ window .search {
   background: transparent;
   color: @foreground;
   border: 1px solid alpha(@border, 0.5);
-  padding: 8px 12px;
+  padding: 0px;
   margin: 4px 5px;
   font-size: 14px;
   font-weight: 500;
@@ -77,4 +77,3 @@ window .list child {
     opacity: 1;
   }
 }
-
