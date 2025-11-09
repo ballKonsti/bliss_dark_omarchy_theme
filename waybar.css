@@ -3,16 +3,31 @@
  * Made with Omarchist
  * ────────────────────────────────────────────────────────────
  */
-@define-color background rgba(205, 180, 219, 0.8); /* Added transparency */
+@define-color background #cdb4db;
 @define-color foreground #03045e;
 
 * {
   font-family: "JetBrainsMono Nerd Font", sans-serif;
   font-size: 13px;
+  min-height: 0;
 }
 
 window#waybar {
-  background-color: transparent;
-  backdrop-filter: blur(10px); /* This creates the blur effect */
-  -webkit-backdrop-filter: blur(10px); /* For compatibility */
+  background-color: @background;
+  color: @foreground;
+}
+
+/* Style for modules */
+#workspaces,
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+  padding: 0 10px;
+  margin: 5px;
+  background-color: @background;
+  color: @foreground;
 }
