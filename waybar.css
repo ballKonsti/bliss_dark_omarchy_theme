@@ -3,31 +3,6 @@
  * Made with Omarchist
  * ────────────────────────────────────────────────────────────
  */
-@define-color background rgba(205, 180, 219, 0.7);
-@define-color foreground #03045e;
 
-* {
-  font-family: "JetBrainsMono Nerd Font", sans-serif;
-  font-size: 13px;
-  min-height: 0;
-}
-
-window#waybar {
-  background: filter(blur(10px));
-  color: @foreground;
-}
-
-/* Style for modules */
-#workspaces,
-#clock,
-#battery,
-#cpu,
-#memory,
-#network,
-#pulseaudio,
-#tray {
-  padding: 0 10px;
-  margin: 5px;
-  background: filter(blur(10px));
-  color: @foreground;
-}
+@define-color background #CCCCCC;
+@define-color foreground #474747;
