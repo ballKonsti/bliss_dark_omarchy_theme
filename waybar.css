@@ -4,5 +4,5 @@
  * ────────────────────────────────────────────────────────────
  */
 
-@define-color background #CC99cc;
+@define-color background transparent;
 @define-color foreground #474747;
