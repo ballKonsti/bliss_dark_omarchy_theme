@@ -3,7 +3,7 @@
  * Made with Omarchist
  * ────────────────────────────────────────────────────────────
  */
-@define-color background #cdb4db;
+@define-color background rgba(205, 180, 219, 0.7);
 @define-color foreground #03045e;
 
 * {
@@ -13,7 +13,7 @@
 }
 
 window#waybar {
-  background-color: @background;
+  background: filter(blur(10px));
   color: @foreground;
 }
 
@@ -28,6 +28,6 @@ window#waybar {
 #tray {
   padding: 0 10px;
   margin: 5px;
-  background-color: @background;
+  background: filter(blur(10px));
   color: @foreground;
 }
