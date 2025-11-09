@@ -3,6 +3,27 @@
  * Made with Omarchist
  * ────────────────────────────────────────────────────────────
  */
-
-@define-color background #cdb4db;
+@define-color background rgba(205, 180, 219, 0.8); /* Added transparency */
 @define-color foreground #03045e;
+
+* {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: transparent;
+  backdrop-filter: blur(10px); /* This creates the blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For compatibility */
+}
+
+/* If you want the blur on specific modules instead */
+.modules-left,
+.modules-center,
+.modules-right {
+  background-color: @background;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
